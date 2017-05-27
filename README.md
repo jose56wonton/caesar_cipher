@@ -1,6 +1,6 @@
-About : Caesar cipher for The Odin Project.
+Caesar Cipher
 
-Description : Cipher that takes an input and a "shift factor" and returned the encoded text.
+* Caesar Cipher is a cipher that takes an input and a shift factor and returns the encoded text.
 
-Author : Joshua Wootonn
-
+This project is part of [TheOdinProject's](http://www.theodinproject.com) Ruby track.
+The project itself can be seen [here](https://www.theodinproject.com/courses/ruby-programming/lessons/building-blocks)!
