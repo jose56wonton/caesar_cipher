@@ -1,8 +1,22 @@
 require 'sinatra'
-require 'sinatra/reloader'
+require 'sinatra/reloader' if development?
 get '/' do 
-  "hell0"
+  erb :index
 end
+get '/submit' do
+  post = params[:post]
+  @word = params['word']
+  @shift = params['shift']
+  @shifted_word = caesar_cipher(@word,@shift.to_i)
+
+  erb :index
+
+end
+
+
+    
+
+
 
 
 

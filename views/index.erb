@@ -1,0 +1,14 @@
+<html>
+  <head></head>
+  <body align='center'>
+  	<h1>Caesar Cipher : Joshua Wootonn</h1>
+    <p>
+       The word translates to: <%= @shifted_word %>
+    </p>
+    <form action='submit'>
+	  Word: <input type='text' name='word' />
+	  Shift: <input type='number' name='shift' min='1' max="10">
+	  <input type='submit' value='Enter' />
+	</form>
+  </body>
+</html>
