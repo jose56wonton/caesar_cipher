@@ -1,3 +1,11 @@
+require 'sinatra'
+require 'sinatra/reloader'
+get '/' do 
+  "hell0"
+end
+
+
+
 def caesar_cipher( words , shift )
   encoded_msg = ""
 
@@ -14,3 +22,4 @@ def caesar_cipher( words , shift )
   encoded_msg
 
 end
+
